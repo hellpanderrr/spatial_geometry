@@ -48,3 +48,14 @@ def check_point_in_sphere(sphere, r, point):
         return True
     else:
         return False
+'''
+Example:
+pentachoron = [[1, 1, 1, -1.0 / math.sqrt(5)], [1, -1, -1, -1.0 / math.sqrt(5)], [-1, 1, -1, -1.0 / math.sqrt(
+    5)], [-1, -1, 1, -1.0 / math.sqrt(5)], [0, 0, 0, math.sqrt(5) - 1.0 / math.sqrt(5)]]
+tetrahedron = [[1, 1, 1], [1, -1, -1], [-1, 1, -1], [-1, -1, 1]]
+triangle = [(3, 3), (1, 3), (1, 1)]
+
+print circumsphere(pentachoron)
+print circumsphere(tetrahedron)
+print circumsphere(triangle)''' 
+    
